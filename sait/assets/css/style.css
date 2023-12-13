@@ -1,0 +1,74 @@
+html{
+    margin: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+header{
+    text-align: right;
+    padding: 20px 0;
+    display: flex;
+}
+.logo{
+    width: 30%;
+}
+header .img-logo{
+    width: 190px;
+    height: auto;
+    display: block;
+}
+nav{
+    width: 70%;
+}
+.nav-container{
+    
+}
+header nav a{
+    color: rgba(255, 255, 255, 1);
+    margin: 0 30px;
+    font-size: 26px;
+}
+section{
+    background-image: url("../images/background.png");
+    height: 809px;
+}
+section h1{
+    font-size: 50px;
+    padding-top: 60px;
+    padding-left: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+section p{
+    font-size: 32px;
+    padding-left: 25px;
+}
+section a{
+    font-size: 24px;
+    background-color:rgba(207, 117, 242, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 35px;
+    margin-left: 25px;
+}
+.footer{
+    padding: 5px;
+    margin-left: 25px;
+}
+.footer-icons{
+    width: 66px;
+    height: 66px;
+}
+.footer-icons:hover{
+    width: 68px;
+    height: 68px;
+}
+h2{
+    margin-left: 25px;
+}
+.line{
+    width: 60%;
+    float: left;
+}
