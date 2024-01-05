@@ -20,22 +20,33 @@
                 <a href="#">Контакти</a>
             </div>
         </nav>
+        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
     <section>
-        <h1>Изкуственият интелект в <br> полза на човечеството</h1>
-        <p>Запознайте се подробно с <br />възможностите на <br /> изкуственият интелект</p>
+        <h1 class="fade-in-left">Изкуственият интелект в <br> полза на човечеството</h1>
+        <p class="fade-in-left">Запознайте се подробно с <br />възможностите на <br /> изкуственият интелект</p>
         <br><br>
-        <a href="#">Научи повече</a>
+        <a href="#" class="fade-in">Научи повече</a>
     </section>
     <div allign="left">
         <hr class="line">
     </div>
     <footer>
         <h2>Последвайте ни:</h2>
-        <a href="#" class="footer"><img src="assets/images/facebook.png" class="footer-icons"></a>
-        <a href="#" class="footer"><img src="assets/images/twitter.png" class="footer-icons"></a>
-        <a href="#" class="footer"><img src="assets/images/instagram.png" class="footer-icons"></a>
-        <a href="#" class="footer"><img src="assets/images/github.png" class="footer-icons"></a>
+        <a href="#" class="footer"><img src="assets/images/facebook.png" class="footer-icons zoom-in"></a>
+        <a href="#" class="footer"><img src="assets/images/twitter.png" class="footer-icons zoom-in"></a>
+        <a href="#" class="footer"><img src="assets/images/instagram.png" class="footer-icons zoom-in"></a>
+        <a href="#" class="footer"><img src="assets/images/github.png" class="footer-icons zoom-in"></a>
+        <script>
+            function toggleMobileMenu() {
+                var nav = document.querySelector('nav');
+                nav.classList.toggle('show');
+            }
+        </script>
     </footer>
 </body>
 

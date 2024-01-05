@@ -37,6 +37,24 @@ header nav a:hover{
     color: rgba(231, 171, 255, 1);
     border-bottom: 1px solid rgba(231, 171, 255, 1);
 }
+.mobile-menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin-right: 20px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.mobile-menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #3498db;
+    margin: 5px 0;
+}
+/**body section**/
 section{
     background-image: url("../images/background.png");
     background-size: cover;
@@ -72,16 +90,53 @@ section a{
     width: 66px;
     height: 66px;
 }
-.footer-icons:hover{
-    width: 68px;
-    height: 68px;
-}
 h2{
     margin-left: 25px;
 }
 .line{
     width: 60%;
     float: left;
+}
+/**fade in animation**/
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/**left in animation**/
+
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/**zoom in animation**/
+.zoom-in {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-in:hover {
+    transform: scale(1.2);
 }
 
 /* Extra Small devices (phones) */
@@ -94,6 +149,67 @@ h2{
     }
     p{
         text-align: left;
+    }
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        z-index: 1;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+}
+
+/* Small devices (mobile) */
+@media only screen and (max-width: 575px) {
+    section{
+        height: 600px;
+    }
+    section a {
+        margin-left: 0px;
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 150px; /* Adjust the width as needed */
+        position: absolute;
+        top: 60px;
+        left: 20px; /* Adjusted to open on the right side */
+        background-color: #3498db; /* Change to your preferred blue color */
+        z-index: 1;
+        border-radius: 10px; /* Add rounded corners if desired */
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    header nav a {
+        margin: 0; /* Remove the top and bottom margin */
+        padding: 15px; /* Add padding for spacing */
+        color: white; /* Set font color to white */
+        text-decoration: none;
+        text-align: center; /* Center the text */
+        display: block; /* Display links as blocks to make them full-width */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Add a border between links */
+    }
+
+    header nav a:last-child {
+        border-bottom: none; /* Remove border from the last link */
     }
 }
 
