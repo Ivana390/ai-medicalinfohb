@@ -1,0 +1,59 @@
+html{
+    margin: 0;
+}
+body{
+    background-color:rgba(206, 226, 238, 1);
+    margin: auto;
+}
+header{
+    text-align: right;
+    padding: 20px 0;
+    display: flex;
+}
+.logo{
+    width: 30%;
+}
+header .img-logo{
+    width: 129px;
+    height: auto;
+    display: block;
+}
+nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-container{
+    margin: auto 0 auto auto;
+    padding: 15px;
+    border-radius: 50px;
+}
+h1{
+    font-family: Montserrat;
+    color: rgba(58, 37, 151, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.main-container{
+    display: flex;
+}
+.container{
+        background-color: rgba(255, 255, 255, 1);
+        height: auto;
+        font-family: Montserrat;
+}
+.left-container{
+    width: 30%;
+    margin: 50px;
+    margin-top: 0;
+}
+.right-container{
+    margin: 50px;
+    width: 70%;
+    margin-top: 0;
+}
+section{
+    background-color: rgba(255, 255, 255, 1);
+}

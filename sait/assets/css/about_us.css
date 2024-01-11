@@ -2,14 +2,13 @@ html{
     margin: 0;
 }
 body{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(206, 226, 238, 1);
     margin: auto;
 }
 header{
     text-align: right;
     padding: 20px 0;
     display: flex;
-    margin: 0px 20px;
 }
 .logo{
     width: 30%;
@@ -31,6 +30,7 @@ nav{
 }
 section{
     display: flex;
+    background-color:  rgba(134, 154, 168, 1);
 }
 .container{
     background-color: rgba(255, 255, 255, 1);
@@ -40,7 +40,7 @@ section{
     font-family: Montserrat;
 }
 .title-container{
-    background-color:rgba(143, 92, 252, 1);
+    background-color:rgba(0, 122, 151, 1);
     border-radius: 24px 24px 0px 0px;
     padding-top: 30px;
     padding-bottom: 80px;

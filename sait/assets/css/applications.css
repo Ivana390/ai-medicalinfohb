@@ -2,17 +2,13 @@ html{
     margin: 0;
 }
 body{
-    background-image: url("../images/medicine_background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: rgba(206, 226, 238, 1);
     margin: auto;
 }
 header{
     text-align: right;
     padding: 20px 0;
     display: flex;
-    margin: 0px 20px;
 }
 .logo{
     width: 30%;
@@ -29,40 +25,30 @@ nav{
 }
 .nav-container{
     margin: auto 0 auto auto;
-    background-color:rgba(255, 255, 255, 1);
     padding: 15px;
     border-radius: 50px;
 }
-header nav a{
-    color: rgba(58, 37, 151, 1);
-    margin: 0 30px;
-    font-size: 26px;
-    text-decoration: none;
-}
-header nav a:hover{
-    color: rgba(58, 37, 151, 1);
-    border-bottom: 1px solid rgba(58, 37, 151, 1);
-}
 section{
-    margin: 20px;
-    background-color:rgba(255, 255, 255, 1);
-    padding: 5px 5px 5px 40px;
-    height: 500px;
+    display: flex;
+    background-color:  rgba(134, 154, 168, 1);
 }
 .container{
-    overflow-y: scroll;
-    overflow-clip-margin: 20px;
-    margin: 10px 5px;
-}
-section h1{
-    font-size: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 35px;
+    height: auto;
+    text-align: left;
     font-family: Montserrat;
-    font-weight: 700;
-    color: rgba(136, 136, 136, 1);
 }
-section p{
-    font-size: 16px;
+.left-container, .right-container{
+    width: 50%;
+    margin: 50px;
+}
+.applications-images{
+    width: 100%;
+    height: auto;
+}
+.content{
+    padding: 10px;
     font-family: Montserrat;
-    font-weight: 400;
-    color: rgba(207, 117, 242, 1);
+    color:rgba(58, 37, 151, 1);
 }
