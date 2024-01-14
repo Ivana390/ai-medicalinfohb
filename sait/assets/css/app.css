@@ -5,13 +5,31 @@ body{
     background-color:rgba(0, 0, 0, 1);
     margin: auto;
 }
-h1{
+h4{
     font-family: Montserrat;
     color: rgba(58, 37, 151, 1);
     font-weight: 700;
     font-size: 24px;
     margin-left: 50px;
     padding-top: 20px;
+    margin-top: 0px;
+}
+h2{
+    color: rgba(0, 122, 151, 1);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+h1{
+    color: rgba(3, 2, 7, 1);
+    font-weight: 800;
+    font-size: 50px;
+}
+p{
+    color: rgba(3, 2, 7, 1);
+    font-weight: 400;
+    font-size: 16px;
 }
 .main-container{
     display: flex;
@@ -30,7 +48,11 @@ h1{
     margin: 50px;
     width: 70%;
     margin-top: 0;
+    padding-left: 50px;
 }
 section{
     background-color: rgba(255, 255, 255, 1);
+}
+.education-image{
+    margin-bottom: 20px;
 }
