@@ -8,6 +8,8 @@ body{
 section{
     display: flex;
     background-color:  rgba(134, 154, 168, 1);
+    padding-left: 26px;
+    padding-right: 26px;
 }
 .second-section{
     margin-bottom: 70px;
@@ -18,6 +20,9 @@ section{
     height: auto;
     text-align: left;
     font-family: Montserrat;
+}
+.container:hover{
+    box-shadow: 0px 5px 15px #CEE2EE;
 }
 .left-container, .right-container{
     width: 50%;

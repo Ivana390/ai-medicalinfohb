@@ -2,6 +2,16 @@ html{
     margin: 0;
 }
 body{
+    background-color: #869AA8;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.white-body{
+    background-color: #ffffff;
+}
+.home-body{
     background-color:rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
     margin: 0;

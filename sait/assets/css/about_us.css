@@ -1,7 +1,6 @@
 section{
     display: flex;
     background-color:  rgba(134, 154, 168, 1);
-    height: 85vh;
 }
 .container{
     background-color: rgba(255, 255, 255, 1);
@@ -30,7 +29,7 @@ section{
     margin-top: 10px;
 }
 .img-container{
-    margin-top: -66px;
+    margin-top: -115px;
 }
 .container p{
     margin: 20px;
@@ -47,7 +46,7 @@ section{
 }
 .left-container, .right-container{
     width: 50%;
-    margin: 76px;
+    margin: 65px 76px;
 }
 h5{
     font-size: 18px;
