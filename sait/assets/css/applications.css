@@ -9,6 +9,9 @@ section{
     display: flex;
     background-color:  rgba(134, 154, 168, 1);
 }
+.second-section{
+    margin-bottom: 70px;
+}
 .container{
     background-color: rgba(255, 255, 255, 1);
     border-radius: 35px;

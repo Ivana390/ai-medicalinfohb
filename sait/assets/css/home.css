@@ -37,61 +37,7 @@ h2{
     width: 60%;
     float: left;
 }
-/**fade in animation**/
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-}
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/**left in animation**/
-
-.fade-in-left {
-    opacity: 0;
-    transform: translateX(-20px);
-    animation: fadeInLeft 1s ease-in-out forwards;
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-/**zoom in animation**/
-.zoom-in {
-    transition: transform 0.3s ease-in-out;
-}
-
-.zoom-in:hover {
-    transform: scale(1.2);
-}
-
-/* Extra Small devices (phones) */
-@media only screen and (max-width: 576px) {
-    section{
-        text-align: center;
-    }
-    h1{
-        text-align: left;
-    }
-    p{
-        text-align: left;
-    }
-
-}
 
 /* Small devices (mobile) */
 @media only screen and (max-width: 575px) {

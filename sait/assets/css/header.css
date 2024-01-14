@@ -21,13 +21,14 @@ nav{
     margin: auto 0 auto auto;
 }
 header nav a{
-    color: rgba(255, 255, 255, 1);
+    color: #030207;
     margin: 0 30px;
-    font-size: 26px;
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
 }
 header nav a:hover{
-    color: rgba(231, 171, 255, 1);
+    color: #9E1AE4;
     border-bottom: 1px solid rgba(231, 171, 255, 1);
 }
 .mobile-menu-toggle {

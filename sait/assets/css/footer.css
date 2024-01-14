@@ -4,14 +4,21 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    display: flex;
+    padding: 20px;
+}
+footer h2{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
 }
 .footer{
     padding: 5px;
     margin-left: 25px;
 }
 .footer-icons{
-    width: 66px;
-    height: 66px;
+    width: 35px;
+    height: 35px;
 }
 
 /* Extra Small devices (phones) */
@@ -21,6 +28,61 @@ footer{
     }
 }
 
+/**fade in animation**/
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/**left in animation**/
+
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/**zoom in animation**/
+.zoom-in {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-in:hover {
+    transform: scale(1.2);
+}
+
+/* Extra Small devices (phones) */
+@media only screen and (max-width: 576px) {
+    section{
+        text-align: center;
+    }
+    h1{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
+
+}
 /* Small devices (mobile) */
 @media only screen and (max-width: 575px) {
 }
