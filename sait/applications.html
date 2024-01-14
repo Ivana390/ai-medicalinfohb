@@ -3,54 +3,78 @@
 
 <head>
     <title>Приложения</title>
-    <link rel="stylesheet" href="assets/css/applications.css" />
+    <link rel="stylesheet" href="assets/css/applications.css"/>
+    <!--Added header style-->
+    <link rel="stylesheet" href="assets/css/header.css"/>
+    <!--Added footer style-->
+    <link rel="stylesheet" href="assets/css/footer.css"/>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="#"><img src="assets/images/logo.png" class="img-logo"></a>
+<header>
+    <div class="logo">
+        <a href="#"><img src="assets/images/logo.png" class="img-logo"></a>
+    </div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">Начало</a>
+            <a href="applications.html">Приложения</a>
+            <a href="">Рискове</a>
+            <a href="about_us.html">За нас</a>
         </div>
-        <nav>
-            <div class="nav-container">
-                <a href="#">Начало</a>
-                <a href="#">Приложения</a>
-                <a href="#">Рискове</a>
-                <a href="#">За нас</a>
-                <a href="#">Контакти</a>
-            </div>
-        </nav>
-    </header>
-    <section>
-        <div class="container left-container">
-            <a href="#"><img src="assets/images/medicina.png" class="applications-images"></a>
-            <div class="content">
+    </nav>
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+<section>
+    <div class="container left-container">
+        <a href="#"><img src="assets/images/medicina.png" class="applications-images"></a>
+        <div class="content">
             <h2>Медицина</h2>
             <p>Навлизането на изкуствения интелект в медицината...</p>
-            </div>
         </div>
-        <div class="container right-container">
-            <a href="#"><img src="assets/images/obrazovanie.png" class="applications-images"></a>
-            <div class="content">
+    </div>
+    <div class="container right-container">
+        <a href="#"><img src="assets/images/obrazovanie.png" class="applications-images"></a>
+        <div class="content">
             <h2>Образование</h2>
             <p>Образованието и изкуственият интелект...</p>
-            </div>
         </div>
-    </section>
-    <section>
-        <div class="container left-container">
-            <a href="#"><img src="assets/images/industriq.png" class="applications-images"></a>
-            <div class="content">
+    </div>
+</section>
+<section>
+    <div class="container left-container">
+        <a href="#"><img src="assets/images/industriq.png" class="applications-images"></a>
+        <div class="content">
             <h2>Индустрията</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Id euismod consectetur diam id aliquam. Molestie pulvinar suspendisse mauris fermentum velit netus. </p>
-            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Id euismod consectetur diam id aliquam. Molestie pulvinar
+                suspendisse mauris fermentum velit netus. </p>
         </div>
-        <div class="container right-container">
-            <a href="#"><img src="assets/images/bit.png" class="applications-images"></a>
-            <div class="content">
+    </div>
+    <div class="container right-container">
+        <a href="#"><img src="assets/images/bit.png" class="applications-images"></a>
+        <div class="content">
             <h2>Бит</h2>
             <p>Изкуственият интелект в помощ на домакинството...</p>
-            </div>
         </div>
-    </section>
-    <footer>
-    </footer>
+    </div>
+</section>
+<footer>
+    <h2>Последвайте ни:</h2>
+    <a href="#" class="footer"><img src="assets/images/facebook.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/twitter.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/instagram.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/github.png" class="footer-icons zoom-in"></a>
+    <script>
+        //mobile js script
+        function toggleMobileMenu() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('show');
+        }
+    </script>
+</footer>
+</body>
+</html>
+

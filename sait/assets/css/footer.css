@@ -1,23 +1,28 @@
-html{
-    margin: 0;
+footer{
+    background-color: rgba(206, 226, 238, 1);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
-body{
-    background-color:rgba(0, 0, 0, 1);
-    color: rgba(255, 255, 255, 1);
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/background.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
+.footer{
+    padding: 5px;
+    margin-left: 25px;
+}
+.footer-icons{
+    width: 66px;
+    height: 66px;
+}
+
+/* Extra Small devices (phones) */
+@media only screen and (max-width: 576px) {
+    footer{
+        display: none;
+    }
 }
 
 /* Small devices (mobile) */
 @media only screen and (max-width: 575px) {
-    body{
-        background-image: url("../images/background_mobile.png");
-    }
 }
 
 /* Small devices (tablets) */

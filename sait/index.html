@@ -3,48 +3,61 @@
 
 <head>
     <title>Начало</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/home.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!--Added header style-->
+    <link rel="stylesheet" href="assets/css/header.css"/>
+    <!--Added footer style-->
+    <link rel="stylesheet" href="assets/css/footer.css"/>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="#"><img src="assets/images/logo.png" class="img-logo"></a>
-        </div>
-        <nav>
-            <div class="nav-container">
-                <a href="#">Начало</a>
-                <a href="#">Приложения</a>
-                <a href="#">Рискове</a>
-                <a href="#">За нас</a>
-                <a href="#">Контакти</a>
+<header>
+    <div class="logo">
+        <a href="#"><img src="assets/images/logo.png" class="img-logo"></a>
+    </div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">Начало</a>
+            <a href="applications.html">Приложения</a>
+            <a href="">Рискове</a>
+            <a href="about_us.html">За нас</a>
+            <div class="mobile-icons">
+                <h4>Последвайте ни:</h4>
+                <div class="flex-icons">
+                    <a href="#" class=""><img src="assets/images/facebook.png" class="menu-icon zoom-in"></a>
+                    <a href="#" class=""><img src="assets/images/twitter.png" class="menu-icon zoom-in"></a>
+                    <a href="#" class=""><img src="assets/images/instagram.png" class="menu-icon zoom-in"></a>
+                    <a href="#" class=""><img src="assets/images/github.png" class="menu-icon zoom-in"></a>
+                </div>
             </div>
-        </nav>
-        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
         </div>
-    </header>
-    <section>
-        <h1 class="fade-in-left">Изкуственият интелект в <br> полза на човечеството</h1>
-        <p class="fade-in-left">Запознайте се подробно с <br />възможностите на <br /> изкуственият интелект</p>
-        <br><br>
-        <a href="#" class="fade-in">Научи повече</a>
-    </section>
-    <footer>
-        <h2>Последвайте ни:</h2>
-        <a href="#" class="footer"><img src="assets/images/facebook.png" class="footer-icons zoom-in"></a>
-        <a href="#" class="footer"><img src="assets/images/twitter.png" class="footer-icons zoom-in"></a>
-        <a href="#" class="footer"><img src="assets/images/instagram.png" class="footer-icons zoom-in"></a>
-        <a href="#" class="footer"><img src="assets/images/github.png" class="footer-icons zoom-in"></a>
-        <script>
-            function toggleMobileMenu() {
-                var nav = document.querySelector('nav');
-                nav.classList.toggle('show');
-            }
-        </script>
-    </footer>
+    </nav>
+    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+<section>
+    <h1 class="fade-in-left">Изкуственият интелект в <br> полза на човечеството</h1>
+    <p class="fade-in-left">Запознайте се подробно с <br/>възможностите на <br/> изкуственият интелект</p>
+    <br><br>
+    <a href="#" class="fade-in">Научи повече</a>
+</section>
+<footer>
+    <h2>Последвайте ни:</h2>
+    <a href="#" class="footer"><img src="assets/images/facebook.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/twitter.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/instagram.png" class="footer-icons zoom-in"></a>
+    <a href="#" class="footer"><img src="assets/images/github.png" class="footer-icons zoom-in"></a>
+    <script>
+        //mobile js script
+        function toggleMobileMenu() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('show');
+        }
+    </script>
+</footer>
 </body>
-
 </html>

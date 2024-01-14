@@ -1,0 +1,122 @@
+/**body section**/
+section{
+}
+section h1{
+    font-size: 50px;
+    padding-top: 60px;
+    padding-left: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    margin-top: 0;
+}
+section p{
+    font-size: 32px;
+    padding-left: 25px;
+}
+section a{
+    font-size: 24px;
+    background-color:rgba(207, 117, 242, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 35px;
+    margin-left: 25px;
+}
+.footer{
+    padding: 5px;
+    margin-left: 25px;
+}
+.footer-icons{
+    width: 66px;
+    height: 66px;
+}
+h2{
+    margin-left: 25px;
+}
+.line{
+    width: 60%;
+    float: left;
+}
+/**fade in animation**/
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/**left in animation**/
+
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/**zoom in animation**/
+.zoom-in {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-in:hover {
+    transform: scale(1.2);
+}
+
+/* Extra Small devices (phones) */
+@media only screen and (max-width: 576px) {
+    section{
+        text-align: center;
+    }
+    h1{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
+
+}
+
+/* Small devices (mobile) */
+@media only screen and (max-width: 575px) {
+    section{
+        height: 600px;
+    }
+    section a {
+        margin-left: 0px;
+    }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {}
+
+/* Medium devices (desktops, laptops) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your styles for medium screens go here */
+}
+
+/* Large devices (large desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your styles for large screens go here */
+}
+
+/* Extra Large devices (extra-large desktops) */
+@media only screen and (min-width: 1200px) {
+    /* Your styles for extra-large screens go here */
+}

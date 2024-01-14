@@ -2,31 +2,8 @@ html{
     margin: 0;
 }
 body{
-    background-color: rgba(206, 226, 238, 1);
+    background-color:rgba(0, 0, 0, 1);
     margin: auto;
-}
-header{
-    text-align: right;
-    padding: 20px 0;
-    display: flex;
-}
-.logo{
-    width: 30%;
-}
-header .img-logo{
-    width: 129px;
-    height: auto;
-    display: block;
-}
-nav{
-    width: 70%;
-    display: flex;
-    align-items: center;
-}
-.nav-container{
-    margin: auto 0 auto auto;
-    padding: 15px;
-    border-radius: 50px;
 }
 section{
     display: flex;
