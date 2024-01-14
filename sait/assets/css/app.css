@@ -31,6 +31,10 @@ p{
     font-weight: 400;
     font-size: 16px;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 .main-container{
     display: flex;
 }
@@ -55,4 +59,37 @@ section{
 }
 .education-image{
     margin-bottom: 20px;
+}
+/* Small devices (mobile) */
+@media only screen and (max-width: 575px) {
+    section{
+        display: block;
+        padding: 10px 0;
+        margin-bottom: 0;
+        height:100%;
+    }
+    .main-container {
+        display: block;
+    }
+    .left-container, .right-container {
+        width: 94%;
+        margin: 10px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 24px;
+        text-align: left;
+    }
+    h4 {
+        margin-left: 10px;
+        text-align: left;
+    }
+    .right-container {
+        margin: 50px 0;
+        width: 93%;
+        margin-top: 0;
+        padding: 0 20px;
+    }
 }

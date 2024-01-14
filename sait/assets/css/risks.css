@@ -1,6 +1,6 @@
 section{
     background-color: rgba(255, 255, 255, 1);
-    padding: 20px;
+    padding: 20px 76px;
     margin-bottom: 70px;
 }
 h2{
@@ -29,4 +29,21 @@ p{
 b{
     font-weight: 600;
     font-size: 20px;
+}
+/* Small devices (mobile) */
+@media only screen and (max-width: 575px) {
+    section{
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 24px;
+        text-align: left;
+    }
+    .text-container {
+        margin: 20px;
+    }
 }

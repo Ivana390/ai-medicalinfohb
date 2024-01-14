@@ -1,6 +1,6 @@
 header{
     text-align: right;
-    padding: 5px 10px;
+    padding: 5px 76px;
     display: flex;
     background-color: rgba(206, 226, 238, 1);
 }
@@ -69,7 +69,9 @@ header nav a:hover{
         z-index: 1;
         border-radius: 35px 0 35px 35px;
     }
-
+    header{
+        padding: 5px 10px;
+    }
     nav.show {
         display: flex;
     }
